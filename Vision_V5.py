@@ -3,7 +3,6 @@ import numpy as np
 import serial
 import time
 
-INVERS = 'n' #ganti y jika bola merah di kanan
 
 #List masking merah
 listLowRed = [np.array([0,26,53]),np.array([163,43,142]),np.array([0,81,127])] # [np.array([0, 111, 109])]
