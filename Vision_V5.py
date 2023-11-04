@@ -48,27 +48,6 @@ blockBawah = 180
 segitigaVertikal = 180
 segitigaHorizontal = 160
 
-##Balik bola kanan sama kiri
-if INVERS == 'y':
-
-    listLowRed2 = listLowRed
-    listUpRed2 = listUpRed
-
-    listLowRed = listLowGreen
-    listUpRed = listUpGreen
-    listLowGreen = listLowRed2
-    listUpGreen = listUpRed2
-
-
-    batasLuasAtasMerah2 = batasLuasAtasMerah
-    batasLuasBawahMerah2 = batasLuasBawahMerah
-
-    batasLuasAtasMerah = batasLuasAtasHijau
-    batasLuasBawahMerah = batasLuasBawahHijau
-    batasLuasAtasHijau = batasLuasAtasMerah2
-    batasLuasBawahHijau = batasLuasBawahMerah2
-
-    ################################
 
 #Rescale video
 def rescale(frame, scale=0.75):
