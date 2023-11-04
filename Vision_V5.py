@@ -16,7 +16,7 @@ listUpGreen = [np.array([83,255,89]),np.array([97, 255, 255]),np.array([179, 255
 batasLuasAtasMerah = 10000  
 batasLuasBawahMerah = 300  
 
-batasLuasAtasHijau = 80000
+batasLuasAtasHijau = 8000
 batasLuasBawahHijau = 300
 
 batasLuasAtasKuning = 10000
